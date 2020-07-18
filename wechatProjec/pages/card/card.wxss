@@ -1,1 +1,171 @@
 /* pages/card/card.wxss */
+.container {
+    padding: 30rpx;
+    background-color: #f5fafe;
+}
+.section {
+    position: relative;
+    width: 690rpx;
+    padding: 15rpx 20rpx;
+    background-color: #fff;
+    border-radius: 10rpx;
+    overflow: hidden;
+    margin-bottom: 20rpx;
+    box-sizing: border-box;
+}
+
+.user {
+    padding: 0;
+}
+.section .user_pic {
+    width: 690rpx;
+    height: 400rpx;
+    overflow: hidden;
+}
+.section .user_pic image {
+    width: 100%;
+}
+.section .user_info {
+    position: relative;
+    width: 100%;
+    height: 260rpx;
+    padding: 20rpx;
+}
+.section .user_info .user_name {
+    font-size: 36rpx;
+}
+.section .user_info .user_name image {
+    margin-left: 10rpx;
+    width: 20rpx;
+    height: 20rpx;
+}
+.section .user_info .tag {
+    margin-top: 20rpx;
+    font-size: 28rpx;
+    color: #fff;
+}
+.section .user_info .tag p {
+    border-radius: 10rpx;
+    margin-right: 10rpx;
+    padding: 5rpx 20rpx;
+}
+.section .user_info .detail {
+    font-size: 30rpx;
+    color: #afafaf;
+}
+.section .user_info .detail view {
+    width: 40%;
+    float: left;
+    margin-top: 10rpx;
+}
+.section .user_info .detail text {
+    display: inline-block;
+}
+.section .user_info .detail image {
+    width: 25rpx;
+    height: 25rpx;
+}
+.section .user_info .ewm {
+    position: absolute;
+    top: 65rpx;
+    right: 65rpx;
+    width: 70rpx;
+    height: 70rpx;
+}
+.section .user_info .envelope {
+    width: 114rpx;
+    height: 105rpx;
+    position: absolute;
+    bottom: -5rpx;
+    right: 50rpx;
+}
+
+.history .photo {
+    display: inline-block;
+    width: 70rpx;
+    height: 70rpx;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: contain;
+    margin-right: 15rpx;
+}
+.history .history_more {
+    float: right;
+    height: 70rpx;
+    justify-content: center;
+    text-align: center;
+}
+.history .history_more text {
+    font-size: 28rpx;
+    line-height: 70rpx;
+}
+.history .history_more image {
+    width: 28rpx;
+    height: 28rpx;
+}
+
+.section .header {
+    position: absolute;
+    top: 15rpx;
+    left: 0;
+    color: #333333;
+    font-size: 30rpx;
+    padding-left: 25rpx;
+}
+.provide,
+.need {
+    height: 150rpx;
+}
+.provide .header {
+    border-left: 4rpx solid #48a6fd;
+}
+.need .header {
+    border-left: 4rpx solid #1dca42;
+}
+.section .content {
+    position: absolute;
+    top: 35px;
+    color: #494949;
+    font-size: 24rpx;
+}
+
+.ad {
+    height: 180rpx;
+    width: 690rpx;
+    background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595073894541&di=cf88703b36399d3e9ab997bbc995cdf3&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F414bc77cb3189bc9b482140eb665681fc91e82b9b0c3-TKTFZN_fw658);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.brand .header {
+    border-left: 4rpx solid #fb8800;
+}
+.brand swiper {
+    height: 205rpx;
+    margin-top: 90rpx;
+    margin-left: 20rpx;
+}
+.brand swiper-item image {
+    width: 205rpx;
+    height: 205rpx;
+    margin-left: 20rpx;
+}
+
+.footerBtn .btn {
+    width: 330rpx;
+    height: 100rpx;
+    border-radius: 50rpx;
+    display: inline-block;
+    line-height: 100rpx;
+    text-align: center;
+}
+
+.edit {
+    background-color: #fff;
+    color: #000;
+}
+.share {
+    background-color: #48a6fd;
+    color: #ffffff;
+}
+

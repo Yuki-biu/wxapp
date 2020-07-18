@@ -4,10 +4,11 @@
     "pages/hongbao/hongbao"
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#48a6fd",
+    "navigationBarTitleText": "我的智能名片",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
