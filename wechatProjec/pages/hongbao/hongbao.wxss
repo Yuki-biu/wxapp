@@ -1,1 +1,142 @@
 /* pages/hongbao/hongbao.wxss */
+.container{
+    background-color: #ffffff;
+}
+.header{
+    width: 750rpx;
+    height: 496rpx;
+    background-color: #f5fafe;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;     /*X轴居中*/
+    z-index: 1;
+}
+.head-top{
+    top: 0;
+    left: 0;
+    width: 750rpx;
+    height: 146rpx;
+    position: absolute;
+    z-index: 2;
+}
+.red-envelope{
+    width: 100%;
+    height: 100%;
+}
+.touxiang{
+    height: 150rpx;
+    width: 150rpx;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4rpx solid #ffffff;
+    position: absolute;
+    top:60rpx;
+    z-index: 3;
+}
+.touxiang image{
+    height: 100%;
+    width: 100%;
+}
+.name{
+    top: 230rpx;
+    position: absolute;
+    height: 28px;
+    width: 100%;
+    z-index: 4;
+    font-size: 28rpx;
+    line-height: 28rpx; 
+    text-align: center;
+}
+.congratulation
+{   
+    height: 32rpx;
+    line-height: 32rpx;
+    font-size: 32rpx;
+    width: 100%;
+    text-align: center;
+    z-index: 4;
+    position: absolute;
+    top: 270rpx;
+}
+.money{
+    height: 46rpx;
+    line-height: 46rpx;
+    font-size: 46rpx;
+    width: 100%;
+    text-align: center;
+    z-index: 4;
+    position: absolute;
+    top: 316rpx;
+}
+.money text{
+    font-size: 22rpx;
+}
+.foot{
+    height: 30rpx;
+    font-size: 30rpx;
+    line-height: 30rpx;
+    color: #48a6fd;
+    top: 430rpx;
+    z-index: 4;
+    position: absolute;
+}
+#jilu{
+    position: absolute;
+    left: 30rpx;
+}
+#tixian{
+    left: 310rpx;
+}
+#zhuanfa{
+    left: 570rpx;
+}
+.number-box{
+    height: 60rpx;
+    line-height: 60rpx;
+    font-size: 24rpx;
+    padding-left: 30rpx;
+    color: #999999;
+    border-bottom:1rpx solid #e1e1e1;
+}
+.luckyInfo{
+    height: 124rpx;
+    margin-left: 30rpx;
+    margin-right: 30rpx;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#luckynum1{
+    border-bottom: 1px solid #e1e1e1;
+}
+.cnb{
+    font-size: 32rpx;
+    line-height: 32rpx;
+    display: inline-block;
+    margin-top: 24rpx;
+
+}
+.luckman{
+    font-size: 32rpx;
+    display: inline-block;
+    color: #999999;
+    margin-left: 24rpx;
+}
+.luckyInfo-left{
+    display: inline-block;
+    height: 100%;
+}
+.date{
+    font-size: 22rpx;
+    color: #999999;
+    margin-top: 10rpx;
+}
+.moneynum{
+    display: inline-block;
+    font-size: 32rpx;
+    line-height: 32rpx;
+    position: absolute;
+    right: 0rpx;
+}

@@ -1,13 +1,14 @@
 {
   "pages": [
-    "pages/card/card",
-    "pages/hongbao/hongbao"
+    "pages/hongbao/hongbao",
+    "pages/card/card"
+
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#f00000",
+    "navigationBarTitleText": "红包",
+    "navigationBarTextStyle": "white"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
