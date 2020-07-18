@@ -1,14 +1,14 @@
 {
   "pages": [
-    "pages/hongbao/hongbao",
-    "pages/card/card"
-
+    "pages/card/card",
+    "pages/hongbao/hongbao"
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#f00000",
-    "navigationBarTitleText": "红包",
-    "navigationBarTextStyle": "white"
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#48a6fd",
+    "navigationBarTitleText": "work",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

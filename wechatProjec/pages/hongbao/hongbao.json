@@ -1,3 +1,8 @@
 {
-  "usingComponents": {}
+  "usingComponents": {},
+  "backgroundTextStyle": "dark",
+  "navigationBarBackgroundColor": "#f00000",
+  "navigationBarTitleText": "hongbao",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true
 }

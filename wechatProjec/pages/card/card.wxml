@@ -1,2 +1,81 @@
 <!--pages/card/card.wxml-->
-<text>pages/card/card.wxml</text>
+<view class="container">
+    <view class="section user">
+        <view class="user_pic">
+            <image src="../../work/pic.jpg" />
+        </view>
+        <view class="user_info">
+            <view class="user_name">
+                <text>Ailsa</text>
+                <image src="../../work/girl.png" />
+            </view>
+            <view class="tag">
+                <p style="background-color: #48a6fd;">开朗</p>
+                <p style="background-color: #1dca42;">自由职业</p>
+                <p style="background-color: #fb8800;">爱折腾</p>
+            </view>
+            <view class="detail">
+                <view>
+                    <image src="../../work/location.png"></image>
+                    <text class="detail-loc">深圳市</text>
+                </view>
+                <view>
+                    <image src="../../work/tie.png"></image>
+                    <text class="detail-work">互联网</text>
+                </view>
+                <view>
+                    <image src="../../work/heart.png"></image>
+                    <text class="detail-hob">角色扮演</text>
+                </view>
+                <view>
+                    <image src="../../work/vx.png"></image>
+                    <text class="detail-wechat">luoqi741</text>
+                </view>
+                <view>
+                    <image src="../../work/phone.png"></image>
+                    <text class="detail-phone">15017933191</text>
+                </view>
+            </view>
+            <image class="ewm" src="../../work/ewm.png" ></image>
+            <image class="envelope" src="../../work/envelope.png" ></image>
+        </view>
+    </view>
+
+    <view class="section history">
+        <view class="photo" style="background-image: url(../../work/history1.jpg);"></view>
+        <view class="photo" style="background-image: url(../../work/history2.jpg);"></view>
+        <view class="photo" style="background-image: url(../../work/history3.jpg);"></view>
+        
+        <view class="history_more">
+            <text>今天2人，累计1098人看过我</text>
+            <image src="../../work/arrow_right.png"></image>
+        </view>
+    </view>
+
+    <view class="section provide">
+        <view class="header">提供</view>
+        <view class="content">软件设计、平面设计、产品设计、电商海报、商场装修、各种你可以想到的设计</view>
+    </view>
+
+    <view class="section need">
+        <view class="header">需求</view>
+        <view class="content">软件设计、平面设计、产品设计、电商海报、商场装修、各种你可以想到的设计</view>
+    </view>
+
+    <view class="section ad"></view>
+
+    <view class="section brand">
+        <view class="header">个人品牌</view>
+        <swiper next-margin="410rpx" circular="true">
+            <swiper-item wx:for="{{brandList}}" key="{{index}}">
+                <image src="{{item}}"></image>
+            </swiper-item>
+        </swiper>
+    </view>
+
+    <view class="footerBtn">
+        <view class="btn edit">编辑</view>
+        <view class="btn share">分享</view>
+    </view>
+
+</view>
