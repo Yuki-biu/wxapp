@@ -1,0 +1,58 @@
+/* pages/selectCard/selectCard.wxss */
+.container {
+    padding: 0 40rpx;
+    background-color: #f0f0f0;
+}
+.header {
+    width: 100%;
+    height: 60rpx;
+    font-size: 22rpx;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.header .like {
+    position: absolute;
+    right: 40rpx;
+    color: #2cce0b;
+}
+.header image {
+    position: absolute;
+    right: 0;
+    width: 30rpx;
+    height: 30rpx;
+}
+
+.wrapper {
+    width: 100%;
+    /* background-color: #fcfcfc; */
+}
+.card {
+    margin: 0;
+    bottom: 0;
+    width: 320rpx;
+    margin-bottom: 30rpx;
+    border-radius: 30rpx;
+    text-align: center;
+    float: left;
+    background-color: #fff;
+}
+.card:nth-child(2n) {
+    margin-left: 30rpx;
+}
+
+.card .card-pic {
+    width: 310rpx;
+    height: 200rpx;
+    margin: 5rpx;
+    border-radius: 30rpx;
+    overflow: hidden;
+}
+.card .card-pic image {
+    width: 100%;
+    height: 100%;
+}
+.card .card-theme {
+    font-size: 28rpx;
+    line-height: 2.5;
+}

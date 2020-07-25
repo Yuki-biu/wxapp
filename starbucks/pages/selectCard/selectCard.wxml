@@ -1,0 +1,17 @@
+<!--pages/selectCard/selectCard.wxml-->
+<view class="container">
+    <view class="header">
+        <text>挑选一个主题</text>
+        <image src="../../img/card.png" />
+        <text class="like">收藏的卡面</text>
+    </view>
+    <view class="wrapper">
+        <view wx:for="{{Cards}}" wx:for-item="card" data-index="index" class="card">
+            <view class="card-pic">
+                <image src="{{card.picUrls[0]}}" />
+            </view>
+            <text class="card-theme">{{card.theme}}</text>
+        </view>
+    </view>
+</view>
+

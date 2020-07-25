@@ -1,0 +1,133 @@
+/* pages/coffeeTicket/coffeeTicket.wxss */
+.back-pic {
+    position: absolute;
+    /* display: fixed; */
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 500rpx;
+    background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595667505775&di=dcf040143b52227c80ee194d70290ff2&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F3de1c4252cbd435e4babc922b141ac468cef2bb794062-vBnuj4_fw236');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* display: none; */
+}
+.hint {
+    position: absolute;
+    z-index: 0;
+    right: 30rpx;
+    top: 20%;
+    background-color: #fff;
+    color: rgb(209, 134, 36);
+    width: 150rpx;
+    height: 50rpx;
+    border-radius: 25rpx;
+    font-size: 26rpx;
+    font-weight: 600;
+    line-height: 50rpx;
+    text-align: center;
+}
+
+.wrapper {
+    z-index: 1;
+    padding: 50rpx 30rpx;
+    border-radius: 75rpx;
+    background-color: #f8f8f8;
+    margin-top: 45%;
+    /* height: 1000rpx; */
+}
+.title {
+    font-size: 26rpx;
+    font-weight: normal;
+}
+.coffee {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 200rpx;
+    align-items: center;
+    border-bottom: 1px solid #e7e7e7;
+}
+.coffee:last-child {
+    margin-bottom: 130rpx;
+}
+.coffee .coffee-pic {
+    width: 150rpx;
+    height: 150rpx;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.coffee .coffee-pic image {
+    width: 100%;
+    height: 100%;
+}
+.coffee .coffee-info {
+    margin-left: 25rpx;
+}
+.coffee .coffee-get {
+    position: absolute;
+    top: 50rpx;
+    right: 0;
+    width: 200rpx;
+    height: 100rpx;
+    align-items: center;
+}
+.coffee .coffee-get image {
+    position: absolute;
+    right: 0;
+    top: 30rpx;
+    width: 40rpx;
+    height: 40rpx;
+}
+.coffee .coffee-get text {
+    position: absolute;
+    right: 65rpx;
+    top: 30rpx;
+    border-bottom: 1px solid #27a700;
+}
+.coffee .coffee-get .minus {
+    right: 110rpx;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    height: 120rpx;
+    bottom: 0;
+    padding: 10rpx 100rpx 0 80rpx;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.footer .total-num {
+    font-size: 22rpx;
+    color: #424242;
+}
+.footer .total-price {
+    line-height: 60rpx;
+    color: #000;
+}
+
+.btn {
+    position: absolute;
+    width: 250rpx;
+    height: 80rpx;
+    border-radius: 40rpx;
+    right: 30rpx;
+    bottom: 20rpx;
+    padding: 20rpx 30rpx;
+    box-sizing: border-box;
+}
+.btn image {
+    width: 36rpx;
+    height: 36rpx;
+    margin-right: 10rpx;
+}
+.buy-not {
+    background-color: #f5f5f5;
+    color: #dbdbdb;
+}
+
+.buy {
+    background-color: #27a700;
+    color: #ffffff;
+}

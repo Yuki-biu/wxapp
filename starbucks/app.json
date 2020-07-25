@@ -1,9 +1,15 @@
 {
-  "pages":[
+  "pages": [
+    "pages/index/index",
+    "pages/coffeeTicket/coffeeTicket",
+    "pages/mine/mine",
+    
+    "pages/selectCard/selectCard",
     "pages/index/index"
+    
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"

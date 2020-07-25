@@ -1,0 +1,45 @@
+/* pages/mine/mine.wxss */
+.container {
+    padding: 40rpx;
+}
+.section {
+    position: relative;
+    border-bottom: 1rpx solid #f0f0f0;
+    height: 160rpx;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.section .section-icon {
+    width: 40rpx;
+    height: 40rpx;
+    margin-right: 20rpx;
+}
+.section .toward {
+    position: absolute;
+    right: 0;
+    color: #dbdbdb;
+}
+.user-info {
+    width: 100%;
+    display: auto;
+    height: 200rpx;
+}
+.user-name {
+    font-size: 50rpx;
+    font-weight: 500;
+    line-height: 200rpx;
+}
+.user-pic {
+    position: absolute;
+    right: 0;
+    width: 170rpx;
+    height: 170rpx;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.user-pic image {
+    width: 100%;
+    height: 100%;
+}
