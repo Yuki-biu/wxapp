@@ -1,0 +1,25 @@
+<!--pages/mine/mine.wxml-->
+<view class="container">
+    <view class="section user-info">
+        <text class="user-name">坛子鸭</text>
+        <view class="user-pic">
+            <image src="../../img/userPic.jfif" mode="cover"></image>
+        </view>
+    </view>
+
+    <view class="section user-his">
+        <image class="section-icon" src="../../img/clock.png" />
+        <text>购买历史</text>
+        <text class="toward">></text>
+    </view>
+    <view class="section user-rec">
+        <image class="section-icon" src="../../img/gift.png" />
+        <text>收到的礼物</text>
+        <text class="toward">></text>
+    </view>
+    <view class="section user-like">
+        <image class="section-icon" src="../../img/card.png" />
+        <text>收藏的卡面</text>
+        <text class="toward">></text>
+    </view>
+</view>

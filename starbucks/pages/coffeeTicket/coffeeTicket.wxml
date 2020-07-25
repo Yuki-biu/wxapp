@@ -1,0 +1,40 @@
+<!--pages/coffeeTicket/coffeeTicket.wxml-->
+
+<view class="back-pic"></view>
+<view class="hint"><text>送礼说明</text></view>
+
+<view class="wrapper">
+    <text class="title">为TA挑选咖啡</text>
+
+    <view wx:for="{{coffeeList}}" wx:for-item="coffee" data-index="{{index}}" wx:key="index" class="coffee">
+        <view class="coffee-pic">
+            <image src="{{coffee.picUrl}}" />
+        </view>
+        <view class="coffee-info">
+            <text>{{coffee.name}} \n</text>
+            <text>￥ {{coffee.price}}</text>
+        </view>
+        <view wx:if="{{coffee.num}}" data-index="{{index}}" class="coffee-get">
+            <image bindtap="downCount" data-index="{{index}}" class="minus" src="../../img/minus.png" />
+            <text>{{coffee.num}}</text>
+            <image bindtap="addCount" data-index="{{index}}" src="../../img/add_green.png" />
+        </view>
+        <view wx:else class="coffee-get" data-index="{{index}}">
+            <image bindtap="addCount" data-index="{{index}}" src="../../img/add.png" />
+        </view>
+    </view>
+
+
+</view>
+<view class="footer">
+    <text class="total-num">\t{{totalNum}}份礼物 \n</text>
+    <text class="total-price">￥ {{totalPrice}}</text>
+    <view wx:if="{{totalNum}}" class="btn buy">
+        <image src="../../img/gift_white.png" />
+        <text>购买礼物</text>
+    </view>
+    <view wx:else class="btn buy-not">
+        <image src="../../img/gift.png" />
+        <text>购买礼物</text>
+    </view>
+</view>
