@@ -19,13 +19,13 @@
 		"useIsolateContext": true,
 		"nodeModules": false,
 		"enhance": false,
-		"useCompilerModule": true,
+		"useCompilerModule": false,
 		"userConfirmedUseCompilerModuleSwitch": false,
 		"showShadowRootInWxmlPanel": true
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.12.0",
-	"appid": "wx42a52ac75db88aa9",
+	"appid": "wxafd1268a67f5b008",
 	"projectname": "starbucks",
 	"debugOptions": {
 		"hidedInDevtools": []
