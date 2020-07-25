@@ -1,3 +1,10 @@
 {
-  "usingComponents": {}
+  "usingComponents": {},
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#48a6fd",
+    "navigationBarTitleText": "我的智能名片",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  }
 }

@@ -1,2 +1,40 @@
 <!--pages/hongbao/hongbao.wxml-->
-<text>pages/hongbao/hongbao.wxml</text>
+<view class="container">
+    <view class="header">
+        <view class="head-top">
+            <image class="red-envelope" src="../img/red-envelope.png" > </image>  
+        </view>
+        <view class="touxiang">
+            <image  src="../img/touxiang.jpg" > </image>
+        </view>
+        <view class="name" > <text> Ailsa</text> </view>
+        <view class="congratulation"><text >恭喜发财，大吉大利</text></view>
+        <view class="money">12.3<text>元</text></view>
+
+        <view class="foot" id="jilu"> <text> 红包记录</text> </view> 
+        <view class="foot" id="tixian"> <text> 前去提现</text> </view>
+        <view class="foot" id="zhuanfa"> <text> 转发给好友</text> </view> 
+    </view>
+    <view class="luckyBox" >
+        <view class="number-box">共100个，已领取3个</view>
+        <view class="luckyInfo" id="luckynum1">
+            <view class="luckyInfo-left">
+              <view class="cnb">拆红包</view>
+                <view class="luckman">(浅浅的夏)</view>
+                <view class="date">2020/12/21 16:40</view>
+            </view>
+           
+            <view class="moneynum">5元</view>
+        </view>
+        <view class="luckyInfo" >
+            <view class="luckyInfo-left">
+              <view class="cnb">拆红包</view>
+                <view class="luckman">(浅浅的夏)</view>
+                <view class="date">2020/12/21 16:40</view>
+            </view>
+           
+            <view class="moneynum">5元</view>
+        </view>
+    </view>
+    
+</view>
